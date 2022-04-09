@@ -1,4 +1,4 @@
 <?php
 $n = $_GET["n"];
-echo str_repeat("A", $n) . time();
+echo str_repeat("A", $n) . " " . time();
 ?>
